@@ -1,0 +1,30 @@
+{
+  "name": "smart-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-art-template": "^1.0.1",
+    "express-ws": "^5.0.2",
+    "http-proxy-middleware": "^2.0.4",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.4.1",
+    "mongoose": "^4.13.0",
+    "net": "^1.0.2",
+    "uuid": "^8.3.2",
+    "webpack": "^5.71.0",
+    "webpack-dev-middleware": "^5.3.1",
+    "ws": "^8.5.0"
+  }
+}

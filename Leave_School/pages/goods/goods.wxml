@@ -1,0 +1,16 @@
+<view class="container">
+    <view wx:if="cabinet.length">
+        <view class="goods" wx:for="{{cabinet[0].latticeArr}}" wx:for-index="index" wx:for-item="cell" wx:key="index">
+            <van-card class="card" wx:for="{{cell}}" wx:for-item="goods" wx:for-index="index" wx:key="index" wx:if="{{goods}}" num="1" title="{{goods.value}}" thumb="{{ goods.imgUrl }}" />
+        </view>
+    </view>
+    <view wx:else>
+        <van-empty description="暂无药柜" />
+    </view>
+    <van-overlay show="{{ show }}">
+        <view class="wrapper">
+            <van-loading type="spinner" color="#1989fa" />
+        </view>
+    </van-overlay>
+
+</view>

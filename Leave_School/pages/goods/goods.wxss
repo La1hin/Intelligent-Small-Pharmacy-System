@@ -1,0 +1,13 @@
+.van-card{
+    background-color:#F3F3F3 !important;
+    margin: 10px 5px 0 5px !important;
+    border-radius: 5% !important;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  
