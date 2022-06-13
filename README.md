@@ -10,3 +10,5 @@ CH32V307VCT6 为 主控模块的代码
 Leave_School 为 微信小程序代码  
 smart 为 网页端代码  
 smart-server 为 服务器代码  
+
+本项目由两个开发者共同完成：La1hin、Pharaonichat
